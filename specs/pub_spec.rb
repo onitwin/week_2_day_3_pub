@@ -81,7 +81,7 @@ class PubTest < MiniTest::Test
 
   def test_drunken_pass
     @cust1.buy_drink(@drink5)
-    assert_equal(true,@pub.drunkeness_check(@cust1))
+    assert_equal(true,@pub.drunkenness_check(@cust1))
   end
 
 
